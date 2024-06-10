@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            margin-top: 40px; /* Agregamos margen superior para separarlo del contenido */
+        }
+
+        .footer .footer-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer .row {
+            margin-bottom: 20px; /* Agregamos espacio entre las filas */
+        }
+
+        .footer .contact-info p {
+            margin-bottom: 5px; /* Reducimos el espacio entre párrafos */
+        }
+
+        .footer .legal {
+            border-top: 1px solid #555;
+            padding-top: 10px;
+            margin-top: 20px; /* Agregamos margen superior para separarlo del contenido */
+        }
+
+        .footer .legal a {
+            color: #aaa;
+        }
+
+        .footer .legal a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+ <footer id="contacto" class="d-flex bg-black text-white">
+        <div class="p-2">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-black text-white"><h4>FACULTAD DE INGENIERÍA - UNJu</h4></li>
+                <li class="list-group-item bg-black text-white">
+                    <p>Dirección: Ítalo Palanca Nº 10</p>
+                    <p>Teléfono: 0388 422-1580</p>
+                    <p>Email: info@fi.unju.edu.ar</p>
+                </li>
+            </ul>
+        </div>
+        <div class="p-2">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-black text-white"><h4>Redes Sociales</h4></li>
+                <li class="list-group-item bg-black">
+                    <p><a class="link-primary link-underline link-underline-opacity-0" href="https://www.facebook.com/fiunju/">Facebook</a></p>
+                    <p><a class="link-danger link-underline link-underline-opacity-0" href="https://www.youtube.com/channel/UCgS9XJlKKSYI1oJ4lIOo77A">YouTube</a></p>
+                    <p><a class="link-info link-underline link-underline-opacity-0" href="https://www.linkedin.com/school/facultad-de-ingenieria-unju">LinkedIn</a></p>
+                    <p><a class="link-warning link-underline link-underline-opacity-0" href="https://www.instagram.com/fiunju/">Instagram</a></p>
+                </li>
+            </ul>
+        </div>
+        <div class="p-2">
+            <h4>Copyright © 2014-2022 - Facultad de Ingeniería - UNJu</h4>
+        </div>
+    </footer>
+    <script data-th-src="@{webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js}"></script>
+</body>
+</html>
